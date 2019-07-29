@@ -1,3 +1,8 @@
 import "./index.pug"
 import  "./index.sass"
-import "../assets/img"
+import "../assets"
+
+// COMPONENTS
+
+import "./components/header"
+import "./components/slider"

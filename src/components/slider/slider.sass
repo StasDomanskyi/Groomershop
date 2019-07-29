@@ -1,0 +1,55 @@
+.slider
+  margin: 0
+  width: 100vw
+  height: 100vh
+  position: relative
+  text-align: center
+  overflow: hidden
+
+.image-container
+  width: 300vw
+  height: 100vh
+  position: relative
+  display: flex
+  -webkit-transition: left 2s
+  -moz-transition: left 2s
+  -o-transition: left 2s
+  transition: left 2s
+
+.image-container__item
+  margin: 0
+  padding: 0
+  width: 100vw
+  height: 100vh
+  position: relative
+
+#slider-image-1:target~.image-container
+  left: 0
+
+#slider-image-2:target~.image-container
+  left: -100vw
+
+#slider-image-3:target~.image-container
+  left: -200vw
+
+.button-container
+  margin: 0 auto
+  display: flex
+  position: absolute
+  bottom: 1.5rem
+  left: 50%
+  transform: translateX(-50%)
+  z-index: 1
+
+.button-container__item
+  margin: 1rem 0.5rem
+  padding: 0
+  display: block
+  height: 1.5rem
+  width: 1.5rem
+  border-radius: 50%
+  background-color: rgba(123, 149, 255, 0.7)
+
+.button-container__item:hover
+  background-color: rgba(165, 117, 115, 0.83)
+  box-shadow: 0 0 1rem #ff5e36
