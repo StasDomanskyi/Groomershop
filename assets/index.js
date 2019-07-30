@@ -1,3 +1,7 @@
 import "./slide1.jpg"
 import "./slide2.jpg"
 import "./slide3.jpg"
+import "./icons/facebook.png"
+import "./icons/instagram.png"
+import "./icons/twitter.png"
+import "./icons/whatsapp.png"

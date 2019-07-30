@@ -6,3 +6,5 @@ import "../assets"
 
 import "./components/header"
 import "./components/slider"
+import "./components/footer"
+import "./components/clients"
