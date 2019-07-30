@@ -10,20 +10,20 @@ $(function() {
         if (counter === 2) {
             $('.clients__inner').animate({
                 left: '-270vw'
-            },"slow");
+            },"fast");
         }
 
         if (counter === 1) {
             $('.clients__inner').animate({
                 left: '-182vw'
-            },"slow");
+            },"fast");
             counter++;
         }
 
         if (counter === 0) {
             $('.clients__inner').animate({
                 left: '-93vw'
-            },"slow");
+            },"fast");
             counter++;
         }             
     });
@@ -33,17 +33,17 @@ $(function() {
         if (counter === 2) {
             $('.clients__inner').animate({
                 left: '-182vw'
-            },"slow");
+            },"fast");
             counter--;
         } else if (counter === 1) {
             $('.clients__inner').animate({
                 left: '-93vw'
-            },"slow");
+            },"fast");
             counter--;
         } else if (counter === 0) {
             $('.clients__inner').animate({
                 left: '-4rem'
-            },"slow");
+            },"fast");
         }           
     });
 })

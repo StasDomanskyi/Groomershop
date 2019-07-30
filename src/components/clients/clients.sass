@@ -25,11 +25,13 @@
     position: relative
 
 .arrow
-    background-color: green
     position: absolute
-    width: 5%
+    width: 15%
     height: 100%
 
+.arrow:hover
+    cursor: pointer
+    
 .left
     left: 0
     
@@ -37,19 +39,20 @@
     right: 0
 
 .clients__outer
-    width: 90%
+    width: 70%
     height: 100%
     position: relative
-    overflow-x: auto
+    overflow-x: hidden
+    overflow-y: hidden
 
 .clients__inner
-    margin: 0 27rem
+    margin: 0 20rem
     position: absolute
     left: -4rem
     width: 300vw
     display: flex
     justify-content: space-between
-    overflow-x: auto
+    overflow-y: hidden
     transition: left 2s
 
 .client-block
@@ -61,18 +64,20 @@
     background-color: rgba(220, 219, 219, 0.65)
 
 .client-block__name
+    font-size: 1.8rem
     text-align: center
     
 .client-block__pic
     margin: 0 auto
     border: 1px solid rgba(123, 149, 255, 0.7)
     border-radius: 50%
-    height: 15rem
-    width: 15rem
+    height: 10rem
+    width: 10rem
     display: block
 
 .client-block__text
     margin: 0 auto
     padding: 1rem 0
     text-align: justify
+    font-size: 1.3rem
     width: 80%
