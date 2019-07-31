@@ -1,4 +1,8 @@
 import $ from "jquery"
+import PopUp from "./components/popup/popup"
+
+let popUp = new PopUp('.submit__btn');
+popUp.init();
 
 $(function() {
     let counter = 0;
@@ -49,6 +53,6 @@ $(function() {
 
     $('.submit__btn').click(function(e) {
         e.preventDefault();
-        
+        popUp.openModal();
     });
 });

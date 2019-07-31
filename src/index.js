@@ -4,6 +4,7 @@ import "../assets"
 
 // COMPONENTS
 
+import "./components/popup"
 import "./components/header"
 import "./components/slider"
 import "./components/clients"
