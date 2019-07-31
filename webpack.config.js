@@ -20,7 +20,7 @@ var config = {
     ],
     output: {
         filename: './bundle.js',
-        path: path.resolve(__dirname, './dist'),
+        path: path.resolve(__dirname, './docs'),
     },
     module: {
         rules: [
@@ -78,7 +78,7 @@ module.exports = (env, argv) => {
     }
     if (argv.mode === 'production') {
         config.devServer = {
-            contentBase: './dist'
+            contentBase: './docs'
         }
     }
     return config;
